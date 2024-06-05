@@ -23,6 +23,15 @@ namespace QUANLYDIEMSV
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // Create an instance of fmdangnhap form
+            fmdangnhap frmDangNhap = new fmdangnhap();
+
+            // Show the fmdangnhap form
+            frmDangNhap.Show();
+
+            // Optionally, hide or close the current fmmain form
+            this.Hide();
+            // or this.Close(); // if you want to close the main form
         }
 
 

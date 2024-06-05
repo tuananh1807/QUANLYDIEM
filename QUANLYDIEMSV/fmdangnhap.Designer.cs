@@ -28,143 +28,152 @@
         /// </summary>
         private void InitializeComponent()
         {
+            pictureBox1 = new PictureBox();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            pictureBox2 = new PictureBox();
+            pictureBox3 = new PictureBox();
             label1 = new Label();
             label2 = new Label();
-            txttdn = new TextBox();
-            txtmk = new TextBox();
-            btnlogin = new Button();
-            pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
             label3 = new Label();
             label4 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.QUẢN_LÝ_ĐIỂM_SINH_VIÊN__1_;
+            pictureBox1.Location = new Point(0, -1);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(397, 263);
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(173, 121);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(208, 23);
+            textBox1.TabIndex = 1;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(173, 159);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(208, 23);
+            textBox2.TabIndex = 2;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.sv1;
+            pictureBox2.Location = new Point(10, 121);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(27, 23);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 3;
+            pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            pictureBox3.Image = Properties.Resources.chia;
+            pictureBox3.Location = new Point(10, 159);
+            pictureBox3.Name = "pictureBox3";
+            pictureBox3.Size = new Size(27, 23);
+            pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox3.TabIndex = 4;
+            pictureBox3.TabStop = false;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.BackColor = Color.White;
-            label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.Red;
-            label1.Location = new Point(146, 39);
+            label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            label1.Location = new Point(43, 125);
             label1.Name = "label1";
-            label1.Size = new Size(161, 32);
-            label1.TabIndex = 0;
-            label1.Text = "ĐĂNG NHẬP";
-            label1.Click += label1_Click;
+            label1.Size = new Size(107, 19);
+            label1.TabIndex = 5;
+            label1.Text = "Tên đăng nhập";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.BackColor = Color.White;
-            label2.Location = new Point(134, 71);
+            label2.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(43, 162);
             label2.Name = "label2";
-            label2.Size = new Size(187, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Phần mềm quản lý điểm sinh viên";
-            label2.Click += label2_Click;
-            // 
-            // txttdn
-            // 
-            txttdn.AutoCompleteMode = AutoCompleteMode.Suggest;
-            txttdn.Location = new Point(173, 98);
-            txttdn.Name = "txttdn";
-            txttdn.Size = new Size(286, 23);
-            txttdn.TabIndex = 2;
-            // 
-            // txtmk
-            // 
-            txtmk.Location = new Point(173, 141);
-            txtmk.Name = "txtmk";
-            txtmk.Size = new Size(286, 23);
-            txtmk.TabIndex = 3;
-            // 
-            // btnlogin
-            // 
-            btnlogin.Font = new Font("Candara", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnlogin.ForeColor = Color.Red;
-            btnlogin.Image = Properties.Resources.QUẢN_LÝ_ĐIỂM_SINH_VIÊN__1_;
-            btnlogin.Location = new Point(146, 195);
-            btnlogin.Name = "btnlogin";
-            btnlogin.Size = new Size(152, 45);
-            btnlogin.TabIndex = 4;
-            btnlogin.Text = "Đăng nhập";
-            btnlogin.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.sv1;
-            pictureBox1.Location = new Point(12, 98);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(26, 23);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 5;
-            pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.chia;
-            pictureBox2.Location = new Point(12, 141);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(26, 23);
-            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox2.TabIndex = 6;
-            pictureBox2.TabStop = false;
+            label2.Size = new Size(75, 19);
+            label2.TabIndex = 6;
+            label2.Text = "Mật khẩu";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(44, 100);
+            label3.Font = new Font("Times New Roman", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.Red;
+            label3.Location = new Point(123, 41);
             label3.Name = "label3";
-            label3.Size = new Size(123, 21);
+            label3.Size = new Size(136, 24);
             label3.TabIndex = 7;
-            label3.Text = "Tên đăng nhập";
+            label3.Text = "ĐĂNG NHẬP";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(44, 141);
+            label4.Font = new Font("Times New Roman", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.LightGray;
+            label4.Location = new Point(102, 65);
             label4.Name = "label4";
-            label4.Size = new Size(82, 21);
+            label4.Size = new Size(184, 15);
             label4.TabIndex = 8;
-            label4.Text = "Mật khẩu";
+            label4.Text = "Phần mền quản lý điểm sinh viên";
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.PaleTurquoise;
+            button1.ForeColor = Color.Red;
+            button1.Location = new Point(123, 197);
+            button1.Name = "button1";
+            button1.Size = new Size(136, 46);
+            button1.TabIndex = 9;
+            button1.Text = "Đăng nhập ";
+            button1.UseVisualStyleBackColor = false;
             // 
             // fmdangnhap
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.QUẢN_LÝ_ĐIỂM_SINH_VIÊN__1_;
-            ClientSize = new Size(485, 252);
+            ClientSize = new Size(393, 264);
+            Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(label3);
-            Controls.Add(pictureBox2);
-            Controls.Add(pictureBox1);
-            Controls.Add(btnlogin);
-            Controls.Add(txtmk);
-            Controls.Add(txttdn);
             Controls.Add(label2);
             Controls.Add(label1);
+            Controls.Add(pictureBox3);
+            Controls.Add(pictureBox2);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
+            Controls.Add(pictureBox1);
             Name = "fmdangnhap";
-            Text = "ĐĂNG NHẬP ";
+            Text = "fmdangnhap";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private PictureBox pictureBox1;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
         private Label label1;
         private Label label2;
-        private TextBox txttdn;
-        private TextBox txtmk;
-        private Button btnlogin;
-        private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
         private Label label3;
         private Label label4;
+        private Button button1;
     }
 }
