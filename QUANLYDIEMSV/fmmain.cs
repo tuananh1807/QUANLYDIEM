@@ -23,17 +23,6 @@ namespace QUANLYDIEMSV
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Kiểm tra xem form "fmdangnhap" đã mở chưa
-            if (Utility.IsOpeningForm("fmdangnhap"))
-            {
-                // Nếu đã mở, không làm gì cả
-                return;
-            }
-
-            // Nếu form "fmdangnhap" chưa mở, tạo một instance mới của nó và hiển thị
-            fmdangnhap f = new fmdangnhap();
-            // Đặt form cha là form chính
-            f.Show();
         }
 
 

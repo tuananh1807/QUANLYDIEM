@@ -53,7 +53,7 @@
             pictureBox1.InitialImage = Properties.Resources.IMG_9502_1_;
             pictureBox1.Location = new Point(12, 23);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(833, 319);
+            pictureBox1.Size = new Size(833, 316);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -113,6 +113,7 @@
             pictureBox3.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox3.TabIndex = 9;
             pictureBox3.TabStop = false;
+            pictureBox3.Click += pictureBox3_Click;
             // 
             // pictureBox4
             // 
