@@ -15,7 +15,7 @@ namespace QUANLYDIEMSV
                 if (f.Name == formname)
                     return true;
             return false;
-            //tuananh12
+            //tuananh1233
         }
     }
 }
