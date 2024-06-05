@@ -15,7 +15,10 @@ namespace QUANLYDIEMSV
                 if (f.Name == formname)
                     return true;
             return false;
+<<<<<<< HEAD
             //tuananh1233
+=======
+>>>>>>> 904e6b651fe0f31f8d0274a5a53526aaa373884c
         }
     }
 }

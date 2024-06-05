@@ -13,8 +13,11 @@ namespace QUANLYDIEMSV
             ApplicationConfiguration.Initialize();
             Application.Run(new fmmain
                 ());
+<<<<<<< HEAD
             //tuanannh12
 
+=======
+>>>>>>> 904e6b651fe0f31f8d0274a5a53526aaa373884c
         }
     }
 }
